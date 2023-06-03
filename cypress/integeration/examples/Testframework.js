@@ -11,8 +11,7 @@ describe('My Second Test Suite', function () {
     cy.fixture('example').then(function (data) {
       this.data = data
 
-      //remove this line 
-      const homePage = new HomePage()
+     
     })
   })
 
